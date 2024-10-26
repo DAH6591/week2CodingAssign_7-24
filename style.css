@@ -1,0 +1,134 @@
+body {
+    background-color: rgb(213, 212, 214);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+}
+
+.nav-style h3 {
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.nav-style {
+    background-color: rgb(201, 201, 205);
+    padding: 10px;
+}
+
+.nav-style ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*using flexbox */
+    gap: 0.5rem;
+}
+
+li:hover {
+    background-color: rgb(199, 192, 248);
+}
+
+.nav-style a {
+    text-decoration: none;
+    color: rgb(42, 36, 79);
+}
+
+.heading {
+    text-align: center;
+    padding: 1rem;
+}
+
+#bikeride {
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 0.85rem rgb(17, 49, 32));
+}
+
+#button-contents {
+    margin: auto;
+    padding: 2rem;
+    font-size: medium;
+    background-color: rgb(226, 223, 242);
+    filter: drop-shadow(0 0 0.80rem rgb(139, 69, 197));
+    border-radius: 4px;
+}
+
+#pumpkin {
+    filter: drop-shadow(0 0 0.85rem orange);
+    border-radius: 2px;
+}
+
+#running {
+    filter: drop-shadow(0 0 0.85rem gold);
+    border-radius: 2px;
+}
+
+#section-header {
+    text-align: center;
+}
+
+.section-body {
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+    margin: auto;
+}
+
+p {
+    text-align: left;
+}
+
+.table-header {
+    text-align: center;
+    margin-bottom: 0.2rem;
+}
+
+.table-favorites {
+    margin: auto;
+    border: 0.5rem solid;
+    border-radius: 1rem;
+    border-color: rgba(17, 49, 32, 0.3);
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 6px;
+}
+
+th {
+    background-color: rgb(146, 163, 146);
+}
+
+tbody tr:hover {
+    background-color: rgb(185, 186, 188);
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    margin: 1.5rem;
+}
+
+input[type=text],
+[type=submit] {
+    border: 2px solid rgb(138, 88, 88);
+    border-radius: 3px;
+    background-color: rgb(215, 219, 223);
+    padding: 6px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#image-hockey {
+    margin: 1.5rem;
+    filter: drop-shadow(0 0 0.75rem maroon);
+    border-radius: 5px;
+}
