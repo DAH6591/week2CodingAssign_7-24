@@ -1,12 +1,15 @@
+/*SECTION Body element styled using element selector - for entire website */
 body {
     background-color: rgb(213, 212, 214);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0%;
 }
 
+/*SECTION nav element styling (all 3 pages) - element and class selectors used */
 .nav-style h3 {
     margin: 0;
     padding-bottom: 0.5rem;
+    color: rgb(67, 60, 110);
 }
 
 .nav-style {
@@ -29,19 +32,16 @@ li:hover {
 
 .nav-style a {
     text-decoration: none;
-    color: rgb(42, 36, 79);
+    color: rgb(67, 60, 110);
 }
 
-.heading {
+/*SECTION Home page, top area styling - class, id and element selectors used  */
+.top-area {
     text-align: center;
     padding: 1rem;
 }
 
-#bikeride {
-    border-radius: 0.5rem;
-    filter: drop-shadow(0 0 0.85rem rgb(17, 49, 32));
-}
-
+/* Note: button styling is same for Home and About pages */
 #button-contents {
     margin: auto;
     padding: 2rem;
@@ -51,37 +51,60 @@ li:hover {
     border-radius: 4px;
 }
 
+/* this header element on Home page */
+#button-contents h2 {
+    color: orangered;
+}
+
+/* this header element on About page */
+#button-contents h3 {
+    color: rgb(17, 49, 32);
+    margin: 0%;
+}
+
 #pumpkin {
     filter: drop-shadow(0 0 0.85rem orange);
     border-radius: 2px;
 }
 
 #running {
-    filter: drop-shadow(0 0 0.85rem gold);
+    filter: drop-shadow(0 0 0.85rem orange);
     border-radius: 2px;
+}
+
+/* Home page, bottom section styled using element, id and class selectors */
+section {
+    background: rgb(201, 201, 205);
 }
 
 #section-header {
     text-align: center;
+    padding-top: 1rem;
+
 }
 
 .section-body {
     text-align: center;
+    padding-bottom: 1rem;
 }
 
-ol {
+.section-body ol {
     display: inline-block;
     text-align: left;
     margin: auto;
 }
 
-p {
-    text-align: left;
+#bikeride {
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 0.85rem rgb(17, 49, 32));
 }
 
+/* SECTION About page styled using same selectors for nav and button as Home page */
+/* About page table element styled using class and element selectors  */
 .table-header {
     text-align: center;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.4rem;
+    color: rgb(17, 49, 32);
 }
 
 .table-favorites {
@@ -108,13 +131,25 @@ tbody tr:hover {
     color: black;
 }
 
+/*SECTION Contact page styled using same selectors for nav element as the other pages */
+/* Contact page styled using class, element and id selectors; using flexbox to 
+properly line up two divs on the same line which contain a form and an image */
 .flex-container {
     display: flex;
     justify-content: center;
+    padding-top: 1rem;
+}
+
+.flex-container div {
+    background-color: rgba(146, 163, 146, 0.5);
 }
 
 form {
     margin: 1.5rem;
+}
+
+form h3 {
+    color: rgb(17, 49, 32);
 }
 
 input[type=text],
